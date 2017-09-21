@@ -1,0 +1,17 @@
+{application, erlang_rethinkdb,
+ [{description, "Erlang RethinkDb Adaptor"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {mod, { erlang_rethinkdb_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [
+
+  ]},
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
