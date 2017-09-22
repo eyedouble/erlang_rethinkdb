@@ -121,7 +121,7 @@ query(Socket, RawQuery) ->
 
 query(Socket, RawQuery, Option) ->
   {A1, A2, A3} = now(),
-  rand:seed(A1, A2, A3),
+  random:seed(A1, A2, A3),
   Token = rand:uniform(3709551616),
   %io:format("QueryToken = ~p~n", [Token]),
 
