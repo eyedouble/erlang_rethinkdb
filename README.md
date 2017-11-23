@@ -1,7 +1,7 @@
-The Erlang Rethink Db Driver
+The Erlang RethinkDb Driver
 =====
 
-**The Erlang Rethink Db Driver, a new lease on life for Rethink in Erlang.**
+**The Erlang RethinkDb Driver**
 A fork of Relang.
 
 ## Contribute
