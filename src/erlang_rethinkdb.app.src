@@ -1,6 +1,6 @@
 {application, erlang_rethinkdb,
  [{description, "Erlang Rethink Db Driver"},
-  {vsn, "0.2.1"},
+  {vsn, "0.2.2"},
   {registered, []},
   {mod, { erlang_rethinkdb_app, []}},
   {applications,
