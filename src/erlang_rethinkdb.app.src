@@ -5,7 +5,9 @@
   {mod, { erlang_rethinkdb_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    protobuffs,
+    jsx
    ]},
   {env,[]},
   {modules, [
